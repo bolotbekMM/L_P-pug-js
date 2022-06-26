@@ -5,6 +5,25 @@
 
 }
 
+.servises__background-image{
+    width: 100%;
+    position: relative;
+    display: block;
+    img{
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        left: -30px;
+        top: -40px;
+
+    }
+    @media (max-width: 990.98px) { 
+       display: none;
+    }
+
+}
+
+
 .road-map{
     margin-top: 42px;
 }
@@ -15,13 +34,24 @@
     font-size: 44px;
     line-height: 54px;
     color: #282C37;
+    @media (max-width: 575.98px) {
+        font-size: 28px;
+        line-height: 28px;
+   
+    }
+   
 }
+
 
 .road-map__ul{
     list-style: none;
     margin: 0px;
     padding-left: 42px;
     margin-top: 33px;
+    @media (max-width: 575.98px) {
+        padding-left: 20px;
+   
+    }
 }
 .road-map__li{
     display: flex;
@@ -38,6 +68,10 @@
     line-height: 20px;
     color: #282C37;
     margin-left: 41px;
+    @media (max-width: 575.98px) {
+        margin-left: 20px;
+   
+    }
 }
 
 .servises__describtion-title{
@@ -49,6 +83,11 @@
     font-size: 30px;
     line-height: 37px;
     color: #282C37;
+    @media (max-width: 575.98px) {
+        font-size: 24px;
+        line-height: 24px;
+   
+    }
 }
 
 .servises__describtion-text p{
@@ -66,6 +105,10 @@
     list-style: none;
     padding-left: 76px;
     margin-top: 36px;
+    @media (max-width: 575.98px) {
+        padding-left: 28px;
+   
+    }
     
 }
 .servises__describtion-li{
@@ -85,6 +128,27 @@
     margin-left: 19px;
     
 }
+.servises__form{
+    .servises__backgroundImage{
+        position: relative;
+
+        img{
+            width: 1077px;
+            height: 459px;
+            position: absolute;
+            z-index: -1;
+            display: block;
+            @media (max-width: 1200.98px) { 
+                width: 850px;
+                height: 459px;
+            }
+            @media (max-width: 1010.98px) { 
+              display: none;
+            }
+        }
+
+    }
+}
 
 .form__box{
     margin: 164px auto 94px;
@@ -93,6 +157,11 @@
     box-shadow: 4px 4px 20px rgba(40, 44, 55, 0.2);
     max-width: 643px;
     padding: 77px 56px 78px 57px;
+    @media (max-width: 575.98px) {
+        padding: 57px 40px 56px 40px;
+        margin-top: 120px ;
+   
+    }
 }
 .servises__input-box{
     position: relative;
@@ -187,4 +256,8 @@
     display: block;
 
 }
+
+
+
+
 
