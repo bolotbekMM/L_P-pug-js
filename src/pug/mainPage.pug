@@ -1,6 +1,9 @@
 block content
     section#main 
-        .container  
+        .container 
+            .background__image 
+                img(src="../assets/two__lines.svg", alt="lines").first-image 
+                img(src="../assets/line__one.svg", alt="lines").second-image 
             .about__container.row.justify-content-md-between.justify-content-center
                 .text.col-sm-12.col-xl-6.col-md-6.ps-4.pt-4
                     img(src="../assets/cube_two.svg", alt="cube")
@@ -31,27 +34,27 @@ block content
                 img.boxess__svg(src="../assets/cube_one.svg", alt="cube")
                 p.boxess__text-title Услуги
                 .col-md-4.col-sm-6.col-12
-                    a(href="/servisesPage.html").block__first.block-blue__size
+                    a(href="/servisesPage.html").block__first.blue__boxes
                         img(src="./assets/diagrammIcon.svg", alt="diagrammIcon")
                         p Разрабатываем маркетинг-план: дорожная карта достижения целей
                 .col-md-8.col-sm-6.col-12
-                    a(href="/servisesPage.html").block__second.block-blue__size
+                    a(href="/servisesPage.html").block__second.blue__boxes
                         img(src="./assets/lightIcon.svg", alt="lightIcon")
                         p Повышаем эффективность продвижения: аудит существующей модели
-                    .row.responsive__web
+                    .row.large__mode
                         .col-md-6.col-sm-6
-                            a(href="/servisesPage.html").block__third.block-blue__size
+                            a(href="/servisesPage.html").block__third.blue__boxes
                                 img(src="./assets/searchingIcon.svg", alt="searchingIcon")
                                 p Находим скрытую прибыль: анализ модели ценообразования
                         .col-md-6.col-sm-6
-                            a(href="/servisesPage.html").block__fourth.block-blue__size
+                            a(href="/servisesPage.html").block__fourth.blue__boxes
                                 img(src="./assets/plainIcon.svg", alt="plainIcon")
                                 p Запускаем новый проект: start-up маркетинг
-                .col-sm-6.col-12.responsive__ipad
-                    a(href="/servisesPage.html").block__third.block-blue__size
+                .col-sm-6.col-12.medium__mode
+                    a(href="/servisesPage.html").block__third.blue__boxes
                         img(src="./assets/searchingIcon.svg", alt="searchingIcon")
                         p Находим скрытую прибыль: анализ модели ценообразования
-                .col-sm-6.col-12.responsive__ipad
-                    a(href="/servisesPage.html").block__fourth.block-blue__size
+                .col-sm-6.col-12.medium__mode
+                    a(href="/servisesPage.html").block__fourth.blue__boxes
                         img(src="./assets/plainIcon.svg", alt="plainIcon")
                         p Запускаем новый проект: start-up маркетинг

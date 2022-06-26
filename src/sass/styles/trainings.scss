@@ -21,6 +21,10 @@
         flex-direction: column;
 
     }
+    @media (max-width: 575.98px) {
+        padding: 15px 15px;
+   
+    }
     .button button{
         background: #287EE7;
         border-radius: 8px;
@@ -46,6 +50,10 @@
     }
     img{
         margin-left: 50px;
+        @media (max-width: 575.98px) {
+           margin-left: 20px;
+       
+        }
     }
 }
 .training__content{
@@ -75,6 +83,15 @@
         line-height: 22px;
         color: #282C37;
     }
+    @media (max-width: 575.98px) {
+        padding: 10px 10px 20px 10px;
+        h3{
+            font-size: 26px;
+            line-height: 32px;
+        }
+       
+   
+    }
     
     
 }
@@ -87,11 +104,17 @@
 
     }
     @media (max-width: 992px) { 
-        padding-right: 15px;
         padding: 25px 15px;
         display: flex;
         flex-direction: column;
 
+    }
+    @media (max-width: 575.98px) {
+        font-size: 28px;
+        line-height: 28px;
+        padding: 0;
+        padding-bottom: 15px;
+   
     }
 
     li{
@@ -108,6 +131,10 @@
         font-size: 17px;
         line-height: 20px;
         color: #282C37;
+        @media (max-width: 575.98px) {
+            margin-left: 20px;
+       
+        }
     }
 }
 
